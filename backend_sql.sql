@@ -13,6 +13,7 @@ CREATE TABLE subjects (
     id INT AUTO_INCREMENT PRIMARY KEY,
     subject_name VARCHAR(50)
 );
+
 INSERT INTO subjects (subject_name)
 VALUES 
 ('Math'),
@@ -30,4 +31,5 @@ CREATE TABLE results (
     FOREIGN KEY (student_id) REFERENCES students(id),
     FOREIGN KEY (subject_id) REFERENCES subjects(id)
 );
+
 select * from students;
