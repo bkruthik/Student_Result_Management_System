@@ -1,4 +1,5 @@
 CREATE DATABASE student_db;
+
 USE student_db;
 
 CREATE TABLE students (
